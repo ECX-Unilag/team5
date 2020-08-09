@@ -73,47 +73,31 @@
 }
 
 /* this handles the line in each section heading  */
-#join-us .sec-head {
-  width: 30%;
+.sec-head {
+  width: 300px;
   text-align: center;
   border-bottom: 2px solid #000;
   line-height: 0.1em;
   margin: 10px 0 20px;
 }
-#join-us .sec-head span {
+.sec-head span {
   background: #fff;
   padding: 0 10px;
 }
 /* join us images border */
-#join-us .join-img {
+.join-img {
   border: 5px solid #60c0e8 !important;
 }
 /* box shadow */
-#join-us .box-shadow {
+.box-shadow {
   box-shadow: 0px 5px 30px 0.5px #e6e6e6;
 }
-#join-us .box-shadow:hover {
+.box-shadow:hover {
   box-shadow: 0px 5px 30px 5px #c7c7c7;
 }
 
 @media screen and (max-width: 320px) {
-  #join-us .sec-head {
-    width: 70%;
-  }
-}
-/* Media query for join us cards */
-@media screen and (max-width: 590px) {
-  .joindiv{
-    width: 90% !important;
-
-  }
-  .row{
-    justify-content: center;
-  }
-  .joincont{
-    width: 90% !important;
-  }
-  .jointext{
-    width: 75% !important;
+  .sec-head {
+    width: 200px;
   }
 }
